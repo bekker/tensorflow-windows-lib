@@ -20,6 +20,6 @@ stable.
 
 ## How to
 You must have Visual C++ Build Tools. From the Visual Studio Command Prompt,
-use `lib.exe`,
+use `lib.exe`. Change `MACHINE` parameter if you want x86.
 
-``` lib.exe /DEF:<DEF file from this repo> /OUT:<Destination of LIB file> ```
+``` lib.exe /DEF:<DEF file from this repo> /OUT:<Destination of LIB file> /MACHINE:X64```
